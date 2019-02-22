@@ -1,0 +1,160 @@
+html,body,h1,h2,h3,h4,h5,h6,p,pre,ol,ul,li,form,input,textarea{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font:16px  "Microsoft YaHei UI",sans-serif;
+    color: #333333;
+}
+a{
+    text-decoration: none ;
+    color: #333;
+}
+/*/默认样式*/
+.nav{
+    width: 100%;
+    height: 79px;
+    background: rgba(0,0,0,0.15);
+    position: fixed;
+    top:0;
+    left: 0;
+}
+.navContent{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+/*行内元素*/
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+.navList{
+    width: 602px;
+    height: 100%;
+    float:right;
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: color  linear .5s;
+}
+.navList li a:hover{
+    color:#16b0dc;
+}
+/*nav*/
+.content{
+    width: 100%;
+    height: 371px;
+}
+.content img{
+    width: 100%;
+    height: 351px;
+}
+/*content*/
+.bottom{
+    width: 100%;
+    height: 665px;
+}
+.bottomContent{
+    width: 1170px;
+    height: 100%;
+    background:transparent;
+    margin: 0 auto;
+}
+.first{
+    font: 16px "Microsoft YaHei " ;
+    text-align:center;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    font-weight: 300;
+    color: #222;
+}
+.second{
+    font: 16px "Microsoft YaHei "  ;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 300;
+    color: #222;
+}
+.bottomContent img{
+    display: block;
+    width: 530px;
+    height: 340px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+/*bottom*/
+.footer{
+    width: 100%;
+    height: 182px;
+    background: #f5f5f5;
+    font-size: 10px;
+    color:#aaaaaa;
+    margin-top: 80px;
+}
+.top{
+    width: 100%;
+    height: 20px;
+    background: white;
+    border-top: 1px solid #f0f2f5;
+}
+.end{
+    width: 100%;
+    height: 162px;
+    margin-top: 20px;
+}
+.end .endContent div a img{
+    width: 20px;
+    height: 20px;
+}
+.endContent{
+    margin: 10px;
+    padding: 5px 0px;
+    text-align: center;
+    line-height: 26px;
+}
+.endContent a img{
+    width: 36px;
+    height: 36px;
+}
+.end div{
+    height: 30px;
+    text-align: center;
+}
+.end div a{
+    font-size: 12px;
+    color: #89bceb;
+    padding-left: 15px;
+}
+.end div a:hover{
+    text-decoration: underline;
+}
+
+.end  p{
+    text-align: center;
+    line-height: 20px;
+}
+
+/*end*/
